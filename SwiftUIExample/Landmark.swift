@@ -43,11 +43,3 @@ struct Coordinates: Hashable, Codable {
     var latitude: Double
     var longitude: Double
 }
-
-var landmarkData: [Landmark] {
-    let url = Bundle.main.url(forResource: "landmarkData", withExtension: "json")!
-    let jsonData = try! Data.init(contentsOf: url)
-    let models = try! JSONDecoder.init().decode([Landmark].self, from: jsonData)
-    
-    return models
-}

@@ -26,8 +26,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
             window.rootViewController = UIHostingController(
-                rootView: LandmarkList()
-                    .environmentObject(UserData())
+                rootView: HikeView(hike: hikeData[0])
             )
             self.window = window
             window.makeKeyAndVisible()
