@@ -27,6 +27,12 @@ struct Landmark: Hashable, Codable, Identifiable {
             longitude: coordinates.longitude)
     }
     
+    var featureImage: Image? {
+        guard isFeatured else { return nil }
+        
+        return Image("\(imageName)_feature")
+    }
+    
     enum Category: String, CaseIterable, Codable, Hashable {
         case featured = "Featured"
         case lakes = "Lakes"
