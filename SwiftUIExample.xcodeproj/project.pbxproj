@@ -33,6 +33,8 @@
 		4BDB66532400072900FC25E4 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDB66522400072900FC25E4 /* HikeDetail.swift */; };
 		4BDB66552400080500FC25E4 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDB66542400080500FC25E4 /* Data.swift */; };
 		4BDB66572400085F00FC25E4 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4BDB66562400085F00FC25E4 /* hikeData.json */; };
+		4BDB66592400111B00FC25E4 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDB66582400111B00FC25E4 /* CategoryHome.swift */; };
+		4BDB665B240011EC00FC25E4 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDB665A240011EC00FC25E4 /* CategoryRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +66,8 @@
 		4BDB66522400072900FC25E4 /* HikeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		4BDB66542400080500FC25E4 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		4BDB66562400085F00FC25E4 /* hikeData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
+		4BDB66582400111B00FC25E4 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		4BDB665A240011EC00FC25E4 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,8 @@
 				4BDB66522400072900FC25E4 /* HikeDetail.swift */,
 				4BDB66542400080500FC25E4 /* Data.swift */,
 				4BDB66562400085F00FC25E4 /* hikeData.json */,
+				4BDB66582400111B00FC25E4 /* CategoryHome.swift */,
+				4BDB665A240011EC00FC25E4 /* CategoryRow.swift */,
 			);
 			path = SwiftUIExample;
 			sourceTree = "<group>";
@@ -212,7 +218,9 @@
 				4BDB664F240006E400FC25E4 /* HikeGraph.swift in Sources */,
 				4BDB66432400016800FC25E4 /* HexagonParameters.swift in Sources */,
 				4BDB662B23FFEAC700FC25E4 /* CircleImageView.swift in Sources */,
+				4BDB66592400111B00FC25E4 /* CategoryHome.swift in Sources */,
 				4BDB661723FFE8F200FC25E4 /* AppDelegate.swift in Sources */,
+				4BDB665B240011EC00FC25E4 /* CategoryRow.swift in Sources */,
 				4BDB66412400015000FC25E4 /* Badge.swift in Sources */,
 				4BDB662D23FFEBBE00FC25E4 /* MapView.swift in Sources */,
 				4BDB66552400080500FC25E4 /* Data.swift in Sources */,

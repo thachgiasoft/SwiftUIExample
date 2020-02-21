@@ -12,7 +12,8 @@
             "latitude": 34.011286
         },
         "imageName": "turtlerock",
-        "isFavorite": true
+        "isFavorite": true,
+        "isFeatured": true
     },
     {
         "name": "Silver Salmon Creek",
@@ -26,6 +27,7 @@
             "latitude": 59.980167
         },
         "imageName": "silversalmoncreek",
-        "isFavorite": false
+        "isFavorite": false,
+        "isFeatured": false
     }
 ]
